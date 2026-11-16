@@ -1,0 +1,23 @@
+{
+  "name": "tienda-api",
+  "version": "1.0.0",
+  "description": "API RESTful de una tienda virtual con Node.js, Express, MongoDB, Mongoose y JWT (patrón MVC)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed/seed.js"
+  },
+  "keywords": ["express", "mongodb", "mongoose", "jwt", "mvc", "api-rest"],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
